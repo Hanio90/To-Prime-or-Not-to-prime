@@ -7,16 +7,16 @@ namespace isAPrimeNumber
     {
         static void Main(string[] args)
         {
-            var message = Numbers.isAPrimeNumber(150) ? "Is a prime number!" : "Is not a prime number!";
+            var message = Numbers.isAPrimeNumber(150) == true ? "Is a prime number!" : "Is not a prime number!";
             Console.WriteLine(message);
 
-            message = Numbers.isAPrimeNumber(2) ? "Is a prime number!" : "Is not a prime number!";
+            message = Numbers.isAPrimeNumber(2) == true ? "Is a prime number!" : "Is not a prime number!";
             Console.WriteLine(message);
 
-            message = Numbers.isAPrimeNumber(53) ? "Is a prime number!" : "Is not a prime number!";
+            message = Numbers.isAPrimeNumber(53) == true ? "Is a prime number!" : "Is not a prime number!";
             Console.WriteLine(message);
 
-            message = Numbers.isAPrimeNumber(23123) ? "Is a prime number!" : "Is not a prime number!";
+            message = Numbers.isAPrimeNumber(23123) == true ? "Is a prime number!" : "Is not a prime number!";
             Console.WriteLine(message);
 
             Console.ReadKey();
